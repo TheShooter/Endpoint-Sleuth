@@ -23,11 +23,17 @@ Endpoint Sleuth will then search the specified file or directory for API endpoin
 Here's an example of Endpoint Sleuth in action:
 
 ```bash
-user$ ./endpoint_sleuth.py --path myproject/com/project/ecommerce
+user$ ./endpoint_sleuth.py --path myproject/com/project/ecommerce/rest
 
 API Endpoints found:
 [('users', 'POST'), ('users/file', 'POST'), ('users/export', 'PUT'), ('users/{userId}/linked-items', 'GET'), ('users/{userId}/linked-items', 'PUT'), ('users/{userId}/linked-categories', 'GET'), ('/health', 'GET')]
 
 ```
 
-In this example, Endpoint Sleuth was run on the `myproject/com/project/ecommerce` directory of a project called `myproject`, and it found these **API endpoints** along with their corresponding **request** **methods**.
+In this example, Endpoint Sleuth was run on the `myproject/com/project/ecommerce/rest` directory which contains .java files of a decompiled project called `myproject`, and it found these **API endpoints** along with their corresponding **request** **methods**.
+
+## To-do
+
+- [ ] Decompile WAR & EAR.
+- [x] Save output to Excelsheet.
+- [ ] Extract Params
