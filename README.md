@@ -37,3 +37,4 @@ In this example, Endpoint Sleuth was run on the `myproject/com/project/ecommerce
 - [ ] Decompile WAR & EAR.
 - [x] Save output to Excelsheet.
 - [ ] Extract Params
+- [ ] Test Extracted APIs
