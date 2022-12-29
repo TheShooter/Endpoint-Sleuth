@@ -1,6 +1,6 @@
 # Endpoint Sleuth
 
-Endpoint Sleuth is an open source tool that helps developers and security professionals extract undocumented API endpoints from WAR, JAR or EAR packages based on JAX-RS Annotations for RESTful Web Services. Whether you're working on a new project and want to discover all the available endpoints, or you're conducting a security audit and need to identify any hidden or potentially vulnerable endpoints, Endpoint Sleuth is the perfect tool for the job.
+Endpoint Sleuth is an open source tool that helps developers and security professionals extract undocumented API endpoints from WAR, JAR or EAR packages based on JAX-RS Annotations for RESTful Web Services. Whether you're working on a new project and want to discover all the available endpoints, or you're conducting a security audit and need to identify any hidden or potentially vulnerable endpoints.
 
 ## Usage
 
