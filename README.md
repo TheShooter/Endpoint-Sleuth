@@ -4,10 +4,15 @@ Endpoint Sleuth is an open source tool that helps developers and security profes
 
 ## Usage
 
-To use Endpoint Sleuth, simply run the following command from the command line, replacing `[directory]` with the path to the Java file or directory you want to scan:
+To use Endpoint Sleuth, simply run the following command from the command line, replacing `[directory]` with the path to the Java file or directory you want to scan and [FILENAME] with filename of the results:
 
 ```bash
 python3 endpoint_sleuth.py [-h] --path [directory] --filename [FILENAME] 
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --path PATH          The path to the decompiled EAR, JAR or WAR
+  --filename FILENAME  the filename to save the output
 
 ```
 
